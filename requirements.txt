@@ -1,7 +1,9 @@
 pyfingerprint
 opencv-python
 dlib
+pyiris
 scikit-image
 deepface
 tkinter
 numpy
+dlib

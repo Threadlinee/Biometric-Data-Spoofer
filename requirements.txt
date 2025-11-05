@@ -1,0 +1,7 @@
+pyfingerprint
+opencv-python
+dlib
+scikit-image
+deepface
+tkinter
+numpy

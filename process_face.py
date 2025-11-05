@@ -16,3 +16,4 @@ for face in faces:
 
     cv2.imwrite('aligned_face.jpg', aligned_face)
     print("Face aligned and saved as 'aligned_face.jpg'")
+

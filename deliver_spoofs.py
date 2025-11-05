@@ -1,14 +1,11 @@
 import cv2
 
-# Load the deepfake video
 cap = cv2.VideoCapture('deepfake_video.mp4')
 
-# Check if the video opened successfully
 if not cap.isOpened():
     print("Error: Could not open video.")
     exit()
 
-# Play the video
 while(cap.isOpened()):
     ret, frame = cap.read()
     if ret == True:
@@ -18,6 +15,6 @@ while(cap.isOpened()):
     else:
         break
 
-# Release the video capture object
 cap.release()
 cv2.destroyAllWindows()
+
